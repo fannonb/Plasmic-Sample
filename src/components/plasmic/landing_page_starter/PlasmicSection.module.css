@@ -1,0 +1,38 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 64px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.rootbackground_dark {
+  background: var(--token-ejQ4L1GVzFwj3C);
+}
+.rootbackground_gray {
+  background: var(--token-Wf3ccJQTQ8jvQx);
+}
+.freeBox {
+  max-width: var(--token-af9z3URAOAf2mJ);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  background: none;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBoxsize_fullContentWidth {
+  max-width: none;
+}
